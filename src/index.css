@@ -6,10 +6,31 @@
 
 @font-face {
     font-family: 'Inter-Regular';
-    src: url('../src/assets/font//Inter/Inter-Regular.ttf');
+    src: url('../src/assets/font/Inter/Inter-Regular.ttf');
   }
   
   @font-face {
     font-family: 'Inter-Bold';
     src: url('../src/assets/font/Inter/Inter-Bold.ttf');
   }
+  @font-face {
+    font-family: 'Inter-Medium';
+    src: url('../src/assets/font/Inter/Inter-Medium.ttf');
+  }
+
+  .leaflet-container {
+    position: relative;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 50vh;
+    width: 50%;
+  }
+  
+  .leaflet-pane {
+    z-index: 400;
+  }
+  
+  
